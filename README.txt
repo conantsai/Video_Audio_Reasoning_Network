@@ -1,0 +1,12 @@
+* youtube_download.py 下載youtube影片用(讀取csv檔)
+* filter_youtube.py 過濾不符合衝突影片的資料(輸出csv檔)
+* mv_clips.py 將訓練以及測試影片轉成一張張的圖片，並重新命名
+* cut_subclips.py 擷取訓練影片變成短時間剪輯並將它分別儲存成影片檔(mp4)跟語音檔(mp3)
+* p3e_model.py P3D模型
+* sound_model.py SoundNet模型
+* va3d.py VA3D模型
+* get_npy_path.py 取得語音特徵值檔案路徑
+* ced_dataloader.py CED資料載入物件
+* ced_train_valid.py 將CED資料集分成訓練以及驗證集和測試集
+* video_transforms.py 影片前處理函式
+* main_exper.py 主要實驗訓練以及預測程式
